@@ -21,7 +21,7 @@
 
 #include "opentyr.h"
 
-#include "SDL.h"
+#include <SDL2/SDL.h>
 
 void JE_pix( SDL_Surface *surface, int x, int y, JE_byte c );
 void JE_pix3( SDL_Surface *surface, int x, int y, JE_byte c );

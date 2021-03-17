@@ -21,7 +21,7 @@
 
 #include "opentyr.h"
 
-#include "SDL.h"
+#include <SDL2/SDL.h>
 
 void JE_loadPic(SDL_Surface *screen, JE_byte PCXnumber, JE_boolean storepal );
 

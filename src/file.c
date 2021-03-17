@@ -21,7 +21,7 @@
 #include "opentyr.h"
 #include "varz.h"
 
-#include "SDL.h"
+#include <SDL2/SDL.h>
 
 #include <errno.h>
 #include <stdio.h>
@@ -36,7 +36,6 @@ const char *data_dir( void )
 	const char *dirs[] =
 	{
 		custom_data_dir,
-		TYRIAN_DIR,
 		"data",
 		".",
 	};

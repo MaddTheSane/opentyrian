@@ -21,9 +21,9 @@
 
 #include "opentyr.h"
 
-#include "SDL.h"
+#include <SDL2/SDL.h>
 #ifdef WITH_NETWORK
-#	include "SDL_net.h"
+#	include <SDL2_net/SDL_net.h>
 #endif
 
 

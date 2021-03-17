@@ -7,67 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2A6CD00F260171EF00D865A1 /* font.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A6CCFA9260171E900D865A1 /* font.c */; };
-		2A6CD010260171EF00D865A1 /* scroller.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A6CCFAA260171E900D865A1 /* scroller.c */; };
-		2A6CD011260171EF00D865A1 /* keyboard.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A6CCFAC260171E900D865A1 /* keyboard.c */; };
-		2A6CD012260171EF00D865A1 /* jukebox.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A6CCFAE260171E900D865A1 /* jukebox.c */; };
-		2A6CD013260171EF00D865A1 /* picload.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A6CCFB0260171E900D865A1 /* picload.c */; };
-		2A6CD014260171EF00D865A1 /* mtrand.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A6CCFB5260171E900D865A1 /* mtrand.c */; };
-		2A6CD015260171EF00D865A1 /* sndmast.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A6CCFB6260171E900D865A1 /* sndmast.c */; };
-		2A6CD016260171EF00D865A1 /* episodes.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A6CCFB7260171E900D865A1 /* episodes.c */; };
-		2A6CD017260171EF00D865A1 /* game_menu.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A6CCFB8260171E900D865A1 /* game_menu.c */; };
-		2A6CD018260171EF00D865A1 /* std_support.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A6CCFB9260171EA00D865A1 /* std_support.c */; };
-		2A6CD019260171EF00D865A1 /* arg_parse.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A6CCFBA260171EA00D865A1 /* arg_parse.c */; };
-		2A6CD01A260171EF00D865A1 /* mouse.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A6CCFBB260171EA00D865A1 /* mouse.c */; };
-		2A6CD01B260171EF00D865A1 /* opentyr.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A6CCFBC260171EA00D865A1 /* opentyr.c */; };
-		2A6CD01C260171EF00D865A1 /* nortsong.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A6CCFBD260171EA00D865A1 /* nortsong.c */; };
-		2A6CD01D260171EF00D865A1 /* network.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A6CCFC0260171EA00D865A1 /* network.c */; };
-		2A6CD01E260171EF00D865A1 /* opl.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A6CCFC2260171EA00D865A1 /* opl.c */; };
-		2A6CD01F260171EF00D865A1 /* config_file.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A6CCFC3260171EA00D865A1 /* config_file.c */; };
-		2A6CD020260171EF00D865A1 /* video.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A6CCFC5260171EA00D865A1 /* video.c */; };
-		2A6CD021260171EF00D865A1 /* editship.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A6CCFC7260171EA00D865A1 /* editship.c */; };
-		2A6CD022260171EF00D865A1 /* params.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A6CCFC8260171EA00D865A1 /* params.c */; };
-		2A6CD023260171EF00D865A1 /* setup.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A6CCFCA260171EA00D865A1 /* setup.c */; };
-		2A6CD024260171EF00D865A1 /* animlib.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A6CCFCB260171EA00D865A1 /* animlib.c */; };
-		2A6CD025260171EF00D865A1 /* menus.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A6CCFCC260171EA00D865A1 /* menus.c */; };
-		2A6CD026260171EF00D865A1 /* backgrnd.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A6CCFD4260171EB00D865A1 /* backgrnd.c */; };
-		2A6CD027260171EF00D865A1 /* mainint.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A6CCFD9260171EB00D865A1 /* mainint.c */; };
-		2A6CD028260171EF00D865A1 /* nortvars.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A6CCFDA260171EB00D865A1 /* nortvars.c */; };
-		2A6CD029260171EF00D865A1 /* starlib.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A6CCFDB260171EB00D865A1 /* starlib.c */; };
-		2A6CD02A260171EF00D865A1 /* sizebuf.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A6CCFDC260171EB00D865A1 /* sizebuf.c */; };
-		2A6CD02B260171EF00D865A1 /* pcxload.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A6CCFDD260171EC00D865A1 /* pcxload.c */; };
-		2A6CD02C260171EF00D865A1 /* loudness.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A6CCFE0260171EC00D865A1 /* loudness.c */; };
-		2A6CD02D260171EF00D865A1 /* palette.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A6CCFE4260171EC00D865A1 /* palette.c */; };
-		2A6CD02E260171EF00D865A1 /* vga256d.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A6CCFE7260171EC00D865A1 /* vga256d.c */; };
-		2A6CD02F260171EF00D865A1 /* video_scale_hqNx.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A6CCFE8260171EC00D865A1 /* video_scale_hqNx.c */; };
-		2A6CD030260171EF00D865A1 /* lds_play.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A6CCFEA260171EE00D865A1 /* lds_play.c */; };
-		2A6CD031260171EF00D865A1 /* video_scale.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A6CCFEE260171EE00D865A1 /* video_scale.c */; };
-		2A6CD032260171EF00D865A1 /* joystick.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A6CCFEF260171EE00D865A1 /* joystick.c */; };
-		2A6CD033260171EF00D865A1 /* vga_palette.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A6CCFF0260171EE00D865A1 /* vga_palette.c */; };
-		2A6CD034260171EF00D865A1 /* tyrian2.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A6CCFF3260171EF00D865A1 /* tyrian2.c */; };
-		2A6CD035260171EF00D865A1 /* lvlmast.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A6CCFF4260171EF00D865A1 /* lvlmast.c */; };
-		2A6CD036260171EF00D865A1 /* shots.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A6CCFF8260171EF00D865A1 /* shots.c */; };
-		2A6CD037260171EF00D865A1 /* player.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A6CCFF9260171EF00D865A1 /* player.c */; };
-		2A6CD038260171EF00D865A1 /* helptext.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A6CCFFB260171EF00D865A1 /* helptext.c */; };
-		2A6CD039260171EF00D865A1 /* lvllib.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A6CCFFC260171EF00D865A1 /* lvllib.c */; };
-		2A6CD03A260171EF00D865A1 /* musmast.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A6CCFFD260171EF00D865A1 /* musmast.c */; };
-		2A6CD03C260171EF00D865A1 /* xmas.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A6CD001260171EF00D865A1 /* xmas.c */; };
-		2A6CD03D260171EF00D865A1 /* pcxmast.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A6CD004260171EF00D865A1 /* pcxmast.c */; };
-		2A6CD03E260171EF00D865A1 /* file.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A6CD005260171EF00D865A1 /* file.c */; };
-		2A6CD03F260171EF00D865A1 /* destruct.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A6CD006260171EF00D865A1 /* destruct.c */; };
-		2A6CD040260171EF00D865A1 /* sprite.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A6CD007260171EF00D865A1 /* sprite.c */; };
-		2A6CD041260171EF00D865A1 /* varz.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A6CD009260171EF00D865A1 /* varz.c */; };
-		2A6CD042260171EF00D865A1 /* fonthand.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A6CD00E260171EF00D865A1 /* fonthand.c */; };
-		2A6CD0452601742500D865A1 /* config.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A6CD0442601742500D865A1 /* config.c */; };
+		2A81E7A62601DCA9006B8333 /* OpenTyrianMainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A81E7A52601DCA9006B8333 /* OpenTyrianMainMenu.xib */; };
+		2ABCF9B826022DCA00B8797C /* config.c in Sources */ = {isa = PBXBuildFile; fileRef = 2ABCF9B626022DCA00B8797C /* config.c */; };
+		2ABCFA1F26022DE300B8797C /* tyrian2.c in Sources */ = {isa = PBXBuildFile; fileRef = 2ABCF9BD26022DDD00B8797C /* tyrian2.c */; };
+		2ABCFA2026022DE300B8797C /* sprite.c in Sources */ = {isa = PBXBuildFile; fileRef = 2ABCF9BF26022DDD00B8797C /* sprite.c */; };
+		2ABCFA2126022DE300B8797C /* config_file.c in Sources */ = {isa = PBXBuildFile; fileRef = 2ABCF9C126022DDD00B8797C /* config_file.c */; };
+		2ABCFA2226022DE300B8797C /* mainint.c in Sources */ = {isa = PBXBuildFile; fileRef = 2ABCF9C426022DDE00B8797C /* mainint.c */; };
+		2ABCFA2326022DE300B8797C /* video_scale_hqNx.c in Sources */ = {isa = PBXBuildFile; fileRef = 2ABCF9C526022DDE00B8797C /* video_scale_hqNx.c */; };
+		2ABCFA2426022DE300B8797C /* network.c in Sources */ = {isa = PBXBuildFile; fileRef = 2ABCF9C626022DDE00B8797C /* network.c */; };
+		2ABCFA2526022DE300B8797C /* mtrand.c in Sources */ = {isa = PBXBuildFile; fileRef = 2ABCF9C726022DDE00B8797C /* mtrand.c */; };
+		2ABCFA2626022DE300B8797C /* mouse.c in Sources */ = {isa = PBXBuildFile; fileRef = 2ABCF9C826022DDE00B8797C /* mouse.c */; };
+		2ABCFA2726022DE300B8797C /* arg_parse.c in Sources */ = {isa = PBXBuildFile; fileRef = 2ABCF9C926022DDE00B8797C /* arg_parse.c */; };
+		2ABCFA2826022DE300B8797C /* jukebox.c in Sources */ = {isa = PBXBuildFile; fileRef = 2ABCF9CA26022DDE00B8797C /* jukebox.c */; };
+		2ABCFA2926022DE300B8797C /* varz.c in Sources */ = {isa = PBXBuildFile; fileRef = 2ABCF9CB26022DDE00B8797C /* varz.c */; };
+		2ABCFA2A26022DE300B8797C /* nortvars.c in Sources */ = {isa = PBXBuildFile; fileRef = 2ABCF9CC26022DDE00B8797C /* nortvars.c */; };
+		2ABCFA2B26022DE300B8797C /* std_support.c in Sources */ = {isa = PBXBuildFile; fileRef = 2ABCF9CD26022DDE00B8797C /* std_support.c */; };
+		2ABCFA2C26022DE300B8797C /* scroller.c in Sources */ = {isa = PBXBuildFile; fileRef = 2ABCF9D026022DDE00B8797C /* scroller.c */; };
+		2ABCFA2D26022DE300B8797C /* lds_play.c in Sources */ = {isa = PBXBuildFile; fileRef = 2ABCF9D126022DDF00B8797C /* lds_play.c */; };
+		2ABCFA2E26022DE300B8797C /* backgrnd.c in Sources */ = {isa = PBXBuildFile; fileRef = 2ABCF9D426022DDF00B8797C /* backgrnd.c */; };
+		2ABCFA2F26022DE300B8797C /* opentyr.c in Sources */ = {isa = PBXBuildFile; fileRef = 2ABCF9D526022DDF00B8797C /* opentyr.c */; };
+		2ABCFA3026022DE300B8797C /* video_scale.c in Sources */ = {isa = PBXBuildFile; fileRef = 2ABCF9D626022DDF00B8797C /* video_scale.c */; };
+		2ABCFA3126022DE300B8797C /* params.c in Sources */ = {isa = PBXBuildFile; fileRef = 2ABCF9D726022DDF00B8797C /* params.c */; };
+		2ABCFA3226022DE300B8797C /* player.c in Sources */ = {isa = PBXBuildFile; fileRef = 2ABCF9D926022DDF00B8797C /* player.c */; };
+		2ABCFA3326022DE300B8797C /* lvlmast.c in Sources */ = {isa = PBXBuildFile; fileRef = 2ABCF9DA26022DDF00B8797C /* lvlmast.c */; };
+		2ABCFA3426022DE300B8797C /* animlib.c in Sources */ = {isa = PBXBuildFile; fileRef = 2ABCF9DE26022DDF00B8797C /* animlib.c */; };
+		2ABCFA3526022DE300B8797C /* shots.c in Sources */ = {isa = PBXBuildFile; fileRef = 2ABCF9DF26022DDF00B8797C /* shots.c */; };
+		2ABCFA3626022DE300B8797C /* keyboard.c in Sources */ = {isa = PBXBuildFile; fileRef = 2ABCF9E026022DE000B8797C /* keyboard.c */; };
+		2ABCFA3726022DE300B8797C /* setup.c in Sources */ = {isa = PBXBuildFile; fileRef = 2ABCF9E126022DE000B8797C /* setup.c */; };
+		2ABCFA3826022DE300B8797C /* pcxload.c in Sources */ = {isa = PBXBuildFile; fileRef = 2ABCF9E226022DE000B8797C /* pcxload.c */; };
+		2ABCFA3926022DE300B8797C /* picload.c in Sources */ = {isa = PBXBuildFile; fileRef = 2ABCF9E426022DE000B8797C /* picload.c */; };
+		2ABCFA3A26022DE300B8797C /* menus.c in Sources */ = {isa = PBXBuildFile; fileRef = 2ABCF9E626022DE000B8797C /* menus.c */; };
+		2ABCFA3B26022DE300B8797C /* destruct.c in Sources */ = {isa = PBXBuildFile; fileRef = 2ABCF9EB26022DE000B8797C /* destruct.c */; };
+		2ABCFA3C26022DE300B8797C /* fonthand.c in Sources */ = {isa = PBXBuildFile; fileRef = 2ABCF9EC26022DE000B8797C /* fonthand.c */; };
+		2ABCFA3D26022DE300B8797C /* musmast.c in Sources */ = {isa = PBXBuildFile; fileRef = 2ABCF9EF26022DE000B8797C /* musmast.c */; };
+		2ABCFA3E26022DE300B8797C /* sizebuf.c in Sources */ = {isa = PBXBuildFile; fileRef = 2ABCF9F026022DE100B8797C /* sizebuf.c */; };
+		2ABCFA3F26022DE300B8797C /* xmas.c in Sources */ = {isa = PBXBuildFile; fileRef = 2ABCF9F326022DE100B8797C /* xmas.c */; };
+		2ABCFA4026022DE300B8797C /* starlib.c in Sources */ = {isa = PBXBuildFile; fileRef = 2ABCF9F626022DE100B8797C /* starlib.c */; };
+		2ABCFA4126022DE300B8797C /* video.c in Sources */ = {isa = PBXBuildFile; fileRef = 2ABCF9F726022DE100B8797C /* video.c */; };
+		2ABCFA4226022DE300B8797C /* vga_palette.c in Sources */ = {isa = PBXBuildFile; fileRef = 2ABCF9F826022DE100B8797C /* vga_palette.c */; };
+		2ABCFA4326022DE300B8797C /* game_menu.c in Sources */ = {isa = PBXBuildFile; fileRef = 2ABCF9F926022DE100B8797C /* game_menu.c */; };
+		2ABCFA4426022DE300B8797C /* loudness.c in Sources */ = {isa = PBXBuildFile; fileRef = 2ABCF9FB26022DE100B8797C /* loudness.c */; };
+		2ABCFA4526022DE300B8797C /* helptext.c in Sources */ = {isa = PBXBuildFile; fileRef = 2ABCF9FC26022DE100B8797C /* helptext.c */; };
+		2ABCFA4626022DE300B8797C /* vga256d.c in Sources */ = {isa = PBXBuildFile; fileRef = 2ABCFA0326022DE100B8797C /* vga256d.c */; };
+		2ABCFA4726022DE300B8797C /* palette.c in Sources */ = {isa = PBXBuildFile; fileRef = 2ABCFA0526022DE100B8797C /* palette.c */; };
+		2ABCFA4826022DE300B8797C /* opl.c in Sources */ = {isa = PBXBuildFile; fileRef = 2ABCFA0726022DE200B8797C /* opl.c */; };
+		2ABCFA4926022DE300B8797C /* file.c in Sources */ = {isa = PBXBuildFile; fileRef = 2ABCFA0B26022DE200B8797C /* file.c */; };
+		2ABCFA4A26022DE300B8797C /* pcxmast.c in Sources */ = {isa = PBXBuildFile; fileRef = 2ABCFA0E26022DE200B8797C /* pcxmast.c */; };
+		2ABCFA4B26022DE300B8797C /* editship.c in Sources */ = {isa = PBXBuildFile; fileRef = 2ABCFA0F26022DE200B8797C /* editship.c */; };
+		2ABCFA4C26022DE300B8797C /* font.c in Sources */ = {isa = PBXBuildFile; fileRef = 2ABCFA1026022DE200B8797C /* font.c */; };
+		2ABCFA4D26022DE300B8797C /* lvllib.c in Sources */ = {isa = PBXBuildFile; fileRef = 2ABCFA1226022DE200B8797C /* lvllib.c */; };
+		2ABCFA4E26022DE300B8797C /* episodes.c in Sources */ = {isa = PBXBuildFile; fileRef = 2ABCFA1326022DE200B8797C /* episodes.c */; };
+		2ABCFA4F26022DE300B8797C /* sndmast.c in Sources */ = {isa = PBXBuildFile; fileRef = 2ABCFA1426022DE200B8797C /* sndmast.c */; };
+		2ABCFA5026022DE300B8797C /* nortsong.c in Sources */ = {isa = PBXBuildFile; fileRef = 2ABCFA1B26022DE200B8797C /* nortsong.c */; };
+		2ABCFA5126022DE300B8797C /* joystick.c in Sources */ = {isa = PBXBuildFile; fileRef = 2ABCFA1C26022DE200B8797C /* joystick.c */; };
 		2ACC77A226017E3A0084EF71 /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A6CCF0726016D4C00D865A1 /* SDL2.framework */; };
 		2ACC77A326017E3A0084EF71 /* SDL2.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2A6CCF0726016D4C00D865A1 /* SDL2.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		2ACC77A426017E3C0084EF71 /* SDL2_net.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A6CCF0626016D4B00D865A1 /* SDL2_net.framework */; };
 		2ACC77A526017E3C0084EF71 /* SDL2_net.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2A6CCF0626016D4B00D865A1 /* SDL2_net.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		2ACC77A926017FE50084EF71 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2ACC77A826017FE50084EF71 /* Images.xcassets */; };
-		2ACC77AB260180980084EF71 /* data in Resources */ = {isa = PBXBuildFile; fileRef = 2ACC77AA260180980084EF71 /* data */; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
-		A48DFB580CD6C27C0026AE59 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = A4CBD5C90CBB687900048D9F /* MainMenu.nib */; };
-		A4EDD15D0CBB6FFB008AEAEB /* tyrian.icns in Resources */ = {isa = PBXBuildFile; fileRef = A4EDD15C0CBB6FFB008AEAEB /* tyrian.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -91,116 +89,114 @@
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		2A6CCF0626016D4B00D865A1 /* SDL2_net.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2_net.framework; path = ../../../../../Library/Frameworks/SDL2_net.framework; sourceTree = "<group>"; };
 		2A6CCF0726016D4C00D865A1 /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = ../../../../../Library/Frameworks/SDL2.framework; sourceTree = "<group>"; };
-		2A6CCFA72601708900D865A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = en; path = en.lproj/MainMenu.nib; sourceTree = "<group>"; };
-		2A6CCFA8260171E900D865A1 /* episodes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = episodes.h; path = "opentyrian-2.1.20130907/src/episodes.h"; sourceTree = "<group>"; };
-		2A6CCFA9260171E900D865A1 /* font.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = font.c; path = "opentyrian-2.1.20130907/src/font.c"; sourceTree = "<group>"; };
-		2A6CCFAA260171E900D865A1 /* scroller.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = scroller.c; path = "opentyrian-2.1.20130907/src/scroller.c"; sourceTree = "<group>"; };
-		2A6CCFAB260171E900D865A1 /* starlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = starlib.h; path = "opentyrian-2.1.20130907/src/starlib.h"; sourceTree = "<group>"; };
-		2A6CCFAC260171E900D865A1 /* keyboard.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = keyboard.c; path = "opentyrian-2.1.20130907/src/keyboard.c"; sourceTree = "<group>"; };
-		2A6CCFAD260171E900D865A1 /* sizebuf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sizebuf.h; path = "opentyrian-2.1.20130907/src/sizebuf.h"; sourceTree = "<group>"; };
-		2A6CCFAE260171E900D865A1 /* jukebox.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = jukebox.c; path = "opentyrian-2.1.20130907/src/jukebox.c"; sourceTree = "<group>"; };
-		2A6CCFAF260171E900D865A1 /* opentyr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = opentyr.h; path = "opentyrian-2.1.20130907/src/opentyr.h"; sourceTree = "<group>"; };
-		2A6CCFB0260171E900D865A1 /* picload.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = picload.c; path = "opentyrian-2.1.20130907/src/picload.c"; sourceTree = "<group>"; };
-		2A6CCFB1260171E900D865A1 /* vga_palette.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vga_palette.h; path = "opentyrian-2.1.20130907/src/vga_palette.h"; sourceTree = "<group>"; };
-		2A6CCFB2260171E900D865A1 /* std_support.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = std_support.h; path = "opentyrian-2.1.20130907/src/std_support.h"; sourceTree = "<group>"; };
-		2A6CCFB3260171E900D865A1 /* scroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = scroller.h; path = "opentyrian-2.1.20130907/src/scroller.h"; sourceTree = "<group>"; };
-		2A6CCFB4260171E900D865A1 /* picload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = picload.h; path = "opentyrian-2.1.20130907/src/picload.h"; sourceTree = "<group>"; };
-		2A6CCFB5260171E900D865A1 /* mtrand.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mtrand.c; path = "opentyrian-2.1.20130907/src/mtrand.c"; sourceTree = "<group>"; };
-		2A6CCFB6260171E900D865A1 /* sndmast.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sndmast.c; path = "opentyrian-2.1.20130907/src/sndmast.c"; sourceTree = "<group>"; };
-		2A6CCFB7260171E900D865A1 /* episodes.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = episodes.c; path = "opentyrian-2.1.20130907/src/episodes.c"; sourceTree = "<group>"; };
-		2A6CCFB8260171E900D865A1 /* game_menu.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = game_menu.c; path = "opentyrian-2.1.20130907/src/game_menu.c"; sourceTree = "<group>"; };
-		2A6CCFB9260171EA00D865A1 /* std_support.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = std_support.c; path = "opentyrian-2.1.20130907/src/std_support.c"; sourceTree = "<group>"; };
-		2A6CCFBA260171EA00D865A1 /* arg_parse.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = arg_parse.c; path = "opentyrian-2.1.20130907/src/arg_parse.c"; sourceTree = "<group>"; };
-		2A6CCFBB260171EA00D865A1 /* mouse.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mouse.c; path = "opentyrian-2.1.20130907/src/mouse.c"; sourceTree = "<group>"; };
-		2A6CCFBC260171EA00D865A1 /* opentyr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = opentyr.c; path = "opentyrian-2.1.20130907/src/opentyr.c"; sourceTree = "<group>"; };
-		2A6CCFBD260171EA00D865A1 /* nortsong.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = nortsong.c; path = "opentyrian-2.1.20130907/src/nortsong.c"; sourceTree = "<group>"; };
-		2A6CCFBE260171EA00D865A1 /* player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = player.h; path = "opentyrian-2.1.20130907/src/player.h"; sourceTree = "<group>"; };
-		2A6CCFBF260171EA00D865A1 /* game_menu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = game_menu.h; path = "opentyrian-2.1.20130907/src/game_menu.h"; sourceTree = "<group>"; };
-		2A6CCFC0260171EA00D865A1 /* network.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = network.c; path = "opentyrian-2.1.20130907/src/network.c"; sourceTree = "<group>"; };
-		2A6CCFC1260171EA00D865A1 /* sndmast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sndmast.h; path = "opentyrian-2.1.20130907/src/sndmast.h"; sourceTree = "<group>"; };
-		2A6CCFC2260171EA00D865A1 /* opl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = opl.c; path = "opentyrian-2.1.20130907/src/opl.c"; sourceTree = "<group>"; };
-		2A6CCFC3260171EA00D865A1 /* config_file.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = config_file.c; path = "opentyrian-2.1.20130907/src/config_file.c"; sourceTree = "<group>"; };
-		2A6CCFC4260171EA00D865A1 /* arg_parse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = arg_parse.h; path = "opentyrian-2.1.20130907/src/arg_parse.h"; sourceTree = "<group>"; };
-		2A6CCFC5260171EA00D865A1 /* video.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = video.c; path = "opentyrian-2.1.20130907/src/video.c"; sourceTree = "<group>"; };
-		2A6CCFC6260171EA00D865A1 /* setup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = setup.h; path = "opentyrian-2.1.20130907/src/setup.h"; sourceTree = "<group>"; };
-		2A6CCFC7260171EA00D865A1 /* editship.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = editship.c; path = "opentyrian-2.1.20130907/src/editship.c"; sourceTree = "<group>"; };
-		2A6CCFC8260171EA00D865A1 /* params.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = params.c; path = "opentyrian-2.1.20130907/src/params.c"; sourceTree = "<group>"; };
-		2A6CCFC9260171EA00D865A1 /* shots.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = shots.h; path = "opentyrian-2.1.20130907/src/shots.h"; sourceTree = "<group>"; };
-		2A6CCFCA260171EA00D865A1 /* setup.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = setup.c; path = "opentyrian-2.1.20130907/src/setup.c"; sourceTree = "<group>"; };
-		2A6CCFCB260171EA00D865A1 /* animlib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = animlib.c; path = "opentyrian-2.1.20130907/src/animlib.c"; sourceTree = "<group>"; };
-		2A6CCFCC260171EA00D865A1 /* menus.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = menus.c; path = "opentyrian-2.1.20130907/src/menus.c"; sourceTree = "<group>"; };
-		2A6CCFCD260171EB00D865A1 /* mouse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mouse.h; path = "opentyrian-2.1.20130907/src/mouse.h"; sourceTree = "<group>"; };
-		2A6CCFCE260171EB00D865A1 /* mainint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mainint.h; path = "opentyrian-2.1.20130907/src/mainint.h"; sourceTree = "<group>"; };
-		2A6CCFCF260171EB00D865A1 /* nortsong.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = nortsong.h; path = "opentyrian-2.1.20130907/src/nortsong.h"; sourceTree = "<group>"; };
-		2A6CCFD0260171EB00D865A1 /* keyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = keyboard.h; path = "opentyrian-2.1.20130907/src/keyboard.h"; sourceTree = "<group>"; };
-		2A6CCFD1260171EB00D865A1 /* menus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = menus.h; path = "opentyrian-2.1.20130907/src/menus.h"; sourceTree = "<group>"; };
-		2A6CCFD2260171EB00D865A1 /* backgrnd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = backgrnd.h; path = "opentyrian-2.1.20130907/src/backgrnd.h"; sourceTree = "<group>"; };
-		2A6CCFD3260171EB00D865A1 /* vga256d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vga256d.h; path = "opentyrian-2.1.20130907/src/vga256d.h"; sourceTree = "<group>"; };
-		2A6CCFD4260171EB00D865A1 /* backgrnd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = backgrnd.c; path = "opentyrian-2.1.20130907/src/backgrnd.c"; sourceTree = "<group>"; };
-		2A6CCFD5260171EB00D865A1 /* editship.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = editship.h; path = "opentyrian-2.1.20130907/src/editship.h"; sourceTree = "<group>"; };
-		2A6CCFD6260171EB00D865A1 /* jukebox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = jukebox.h; path = "opentyrian-2.1.20130907/src/jukebox.h"; sourceTree = "<group>"; };
-		2A6CCFD7260171EB00D865A1 /* loudness.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = loudness.h; path = "opentyrian-2.1.20130907/src/loudness.h"; sourceTree = "<group>"; };
-		2A6CCFD8260171EB00D865A1 /* nortvars.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = nortvars.h; path = "opentyrian-2.1.20130907/src/nortvars.h"; sourceTree = "<group>"; };
-		2A6CCFD9260171EB00D865A1 /* mainint.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mainint.c; path = "opentyrian-2.1.20130907/src/mainint.c"; sourceTree = "<group>"; };
-		2A6CCFDA260171EB00D865A1 /* nortvars.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = nortvars.c; path = "opentyrian-2.1.20130907/src/nortvars.c"; sourceTree = "<group>"; };
-		2A6CCFDB260171EB00D865A1 /* starlib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = starlib.c; path = "opentyrian-2.1.20130907/src/starlib.c"; sourceTree = "<group>"; };
-		2A6CCFDC260171EB00D865A1 /* sizebuf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sizebuf.c; path = "opentyrian-2.1.20130907/src/sizebuf.c"; sourceTree = "<group>"; };
-		2A6CCFDD260171EC00D865A1 /* pcxload.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pcxload.c; path = "opentyrian-2.1.20130907/src/pcxload.c"; sourceTree = "<group>"; };
-		2A6CCFDE260171EC00D865A1 /* file.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = file.h; path = "opentyrian-2.1.20130907/src/file.h"; sourceTree = "<group>"; };
-		2A6CCFDF260171EC00D865A1 /* fonthand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fonthand.h; path = "opentyrian-2.1.20130907/src/fonthand.h"; sourceTree = "<group>"; };
-		2A6CCFE0260171EC00D865A1 /* loudness.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = loudness.c; path = "opentyrian-2.1.20130907/src/loudness.c"; sourceTree = "<group>"; };
-		2A6CCFE1260171EC00D865A1 /* pcxload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pcxload.h; path = "opentyrian-2.1.20130907/src/pcxload.h"; sourceTree = "<group>"; };
-		2A6CCFE2260171EC00D865A1 /* pcxmast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pcxmast.h; path = "opentyrian-2.1.20130907/src/pcxmast.h"; sourceTree = "<group>"; };
-		2A6CCFE3260171EC00D865A1 /* musmast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = musmast.h; path = "opentyrian-2.1.20130907/src/musmast.h"; sourceTree = "<group>"; };
-		2A6CCFE4260171EC00D865A1 /* palette.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = palette.c; path = "opentyrian-2.1.20130907/src/palette.c"; sourceTree = "<group>"; };
-		2A6CCFE5260171EC00D865A1 /* tyrian2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tyrian2.h; path = "opentyrian-2.1.20130907/src/tyrian2.h"; sourceTree = "<group>"; };
-		2A6CCFE6260171EC00D865A1 /* video.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = video.h; path = "opentyrian-2.1.20130907/src/video.h"; sourceTree = "<group>"; };
-		2A6CCFE7260171EC00D865A1 /* vga256d.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = vga256d.c; path = "opentyrian-2.1.20130907/src/vga256d.c"; sourceTree = "<group>"; };
-		2A6CCFE8260171EC00D865A1 /* video_scale_hqNx.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = video_scale_hqNx.c; path = "opentyrian-2.1.20130907/src/video_scale_hqNx.c"; sourceTree = "<group>"; };
-		2A6CCFE9260171EC00D865A1 /* xmas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xmas.h; path = "opentyrian-2.1.20130907/src/xmas.h"; sourceTree = "<group>"; };
-		2A6CCFEA260171EE00D865A1 /* lds_play.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = lds_play.c; path = "opentyrian-2.1.20130907/src/lds_play.c"; sourceTree = "<group>"; };
-		2A6CCFEB260171EE00D865A1 /* palette.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = palette.h; path = "opentyrian-2.1.20130907/src/palette.h"; sourceTree = "<group>"; };
-		2A6CCFEC260171EE00D865A1 /* lds_play.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = lds_play.h; path = "opentyrian-2.1.20130907/src/lds_play.h"; sourceTree = "<group>"; };
-		2A6CCFED260171EE00D865A1 /* config_file.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = config_file.h; path = "opentyrian-2.1.20130907/src/config_file.h"; sourceTree = "<group>"; };
-		2A6CCFEE260171EE00D865A1 /* video_scale.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = video_scale.c; path = "opentyrian-2.1.20130907/src/video_scale.c"; sourceTree = "<group>"; };
-		2A6CCFEF260171EE00D865A1 /* joystick.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = joystick.c; path = "opentyrian-2.1.20130907/src/joystick.c"; sourceTree = "<group>"; };
-		2A6CCFF0260171EE00D865A1 /* vga_palette.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = vga_palette.c; path = "opentyrian-2.1.20130907/src/vga_palette.c"; sourceTree = "<group>"; };
-		2A6CCFF1260171EE00D865A1 /* params.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = params.h; path = "opentyrian-2.1.20130907/src/params.h"; sourceTree = "<group>"; };
-		2A6CCFF2260171EE00D865A1 /* opl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = opl.h; path = "opentyrian-2.1.20130907/src/opl.h"; sourceTree = "<group>"; };
-		2A6CCFF3260171EF00D865A1 /* tyrian2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tyrian2.c; path = "opentyrian-2.1.20130907/src/tyrian2.c"; sourceTree = "<group>"; };
-		2A6CCFF4260171EF00D865A1 /* lvlmast.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = lvlmast.c; path = "opentyrian-2.1.20130907/src/lvlmast.c"; sourceTree = "<group>"; };
-		2A6CCFF5260171EF00D865A1 /* lvllib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = lvllib.h; path = "opentyrian-2.1.20130907/src/lvllib.h"; sourceTree = "<group>"; };
-		2A6CCFF6260171EF00D865A1 /* opentyrian_version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = opentyrian_version.h; path = "opentyrian-2.1.20130907/src/opentyrian_version.h"; sourceTree = "<group>"; };
-		2A6CCFF7260171EF00D865A1 /* sprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sprite.h; path = "opentyrian-2.1.20130907/src/sprite.h"; sourceTree = "<group>"; };
-		2A6CCFF8260171EF00D865A1 /* shots.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = shots.c; path = "opentyrian-2.1.20130907/src/shots.c"; sourceTree = "<group>"; };
-		2A6CCFF9260171EF00D865A1 /* player.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = player.c; path = "opentyrian-2.1.20130907/src/player.c"; sourceTree = "<group>"; };
-		2A6CCFFA260171EF00D865A1 /* animlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = animlib.h; path = "opentyrian-2.1.20130907/src/animlib.h"; sourceTree = "<group>"; };
-		2A6CCFFB260171EF00D865A1 /* helptext.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = helptext.c; path = "opentyrian-2.1.20130907/src/helptext.c"; sourceTree = "<group>"; };
-		2A6CCFFC260171EF00D865A1 /* lvllib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = lvllib.c; path = "opentyrian-2.1.20130907/src/lvllib.c"; sourceTree = "<group>"; };
-		2A6CCFFD260171EF00D865A1 /* musmast.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = musmast.c; path = "opentyrian-2.1.20130907/src/musmast.c"; sourceTree = "<group>"; };
-		2A6CCFFE260171EF00D865A1 /* video_scale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = video_scale.h; path = "opentyrian-2.1.20130907/src/video_scale.h"; sourceTree = "<group>"; };
-		2A6CCFFF260171EF00D865A1 /* mtrand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mtrand.h; path = "opentyrian-2.1.20130907/src/mtrand.h"; sourceTree = "<group>"; };
-		2A6CD001260171EF00D865A1 /* xmas.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = xmas.c; path = "opentyrian-2.1.20130907/src/xmas.c"; sourceTree = "<group>"; };
-		2A6CD002260171EF00D865A1 /* lvlmast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = lvlmast.h; path = "opentyrian-2.1.20130907/src/lvlmast.h"; sourceTree = "<group>"; };
-		2A6CD003260171EF00D865A1 /* destruct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = destruct.h; path = "opentyrian-2.1.20130907/src/destruct.h"; sourceTree = "<group>"; };
-		2A6CD004260171EF00D865A1 /* pcxmast.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pcxmast.c; path = "opentyrian-2.1.20130907/src/pcxmast.c"; sourceTree = "<group>"; };
-		2A6CD005260171EF00D865A1 /* file.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = file.c; path = "opentyrian-2.1.20130907/src/file.c"; sourceTree = "<group>"; };
-		2A6CD006260171EF00D865A1 /* destruct.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = destruct.c; path = "opentyrian-2.1.20130907/src/destruct.c"; sourceTree = "<group>"; };
-		2A6CD007260171EF00D865A1 /* sprite.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sprite.c; path = "opentyrian-2.1.20130907/src/sprite.c"; sourceTree = "<group>"; };
-		2A6CD008260171EF00D865A1 /* helptext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = helptext.h; path = "opentyrian-2.1.20130907/src/helptext.h"; sourceTree = "<group>"; };
-		2A6CD009260171EF00D865A1 /* varz.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = varz.c; path = "opentyrian-2.1.20130907/src/varz.c"; sourceTree = "<group>"; };
-		2A6CD00A260171EF00D865A1 /* joystick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = joystick.h; path = "opentyrian-2.1.20130907/src/joystick.h"; sourceTree = "<group>"; };
-		2A6CD00B260171EF00D865A1 /* varz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = varz.h; path = "opentyrian-2.1.20130907/src/varz.h"; sourceTree = "<group>"; };
-		2A6CD00C260171EF00D865A1 /* font.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = font.h; path = "opentyrian-2.1.20130907/src/font.h"; sourceTree = "<group>"; };
-		2A6CD00D260171EF00D865A1 /* network.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = network.h; path = "opentyrian-2.1.20130907/src/network.h"; sourceTree = "<group>"; };
-		2A6CD00E260171EF00D865A1 /* fonthand.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = fonthand.c; path = "opentyrian-2.1.20130907/src/fonthand.c"; sourceTree = "<group>"; };
-		2A6CD0432601742500D865A1 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = config.h; path = src/config.h; sourceTree = "<group>"; };
-		2A6CD0442601742500D865A1 /* config.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = config.c; path = src/config.c; sourceTree = "<group>"; };
+		2A81E7A52601DCA9006B8333 /* OpenTyrianMainMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OpenTyrianMainMenu.xib; sourceTree = "<group>"; };
+		2ABCF9B626022DCA00B8797C /* config.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = config.c; sourceTree = "<group>"; };
+		2ABCF9B726022DCA00B8797C /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		2ABCF9B926022DDD00B8797C /* sizebuf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sizebuf.h; sourceTree = "<group>"; };
+		2ABCF9BA26022DDD00B8797C /* vga256d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vga256d.h; sourceTree = "<group>"; };
+		2ABCF9BB26022DDD00B8797C /* helptext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = helptext.h; sourceTree = "<group>"; };
+		2ABCF9BC26022DDD00B8797C /* mtrand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mtrand.h; sourceTree = "<group>"; };
+		2ABCF9BD26022DDD00B8797C /* tyrian2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tyrian2.c; sourceTree = "<group>"; };
+		2ABCF9BE26022DDD00B8797C /* scroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scroller.h; sourceTree = "<group>"; };
+		2ABCF9BF26022DDD00B8797C /* sprite.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sprite.c; sourceTree = "<group>"; };
+		2ABCF9C026022DDD00B8797C /* shots.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shots.h; sourceTree = "<group>"; };
+		2ABCF9C126022DDD00B8797C /* config_file.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = config_file.c; sourceTree = "<group>"; };
+		2ABCF9C226022DDE00B8797C /* pcxload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pcxload.h; sourceTree = "<group>"; };
+		2ABCF9C326022DDE00B8797C /* pcxmast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pcxmast.h; sourceTree = "<group>"; };
+		2ABCF9C426022DDE00B8797C /* mainint.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mainint.c; sourceTree = "<group>"; };
+		2ABCF9C526022DDE00B8797C /* video_scale_hqNx.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = video_scale_hqNx.c; sourceTree = "<group>"; };
+		2ABCF9C626022DDE00B8797C /* network.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = network.c; sourceTree = "<group>"; };
+		2ABCF9C726022DDE00B8797C /* mtrand.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mtrand.c; sourceTree = "<group>"; };
+		2ABCF9C826022DDE00B8797C /* mouse.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mouse.c; sourceTree = "<group>"; };
+		2ABCF9C926022DDE00B8797C /* arg_parse.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = arg_parse.c; sourceTree = "<group>"; };
+		2ABCF9CA26022DDE00B8797C /* jukebox.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = jukebox.c; sourceTree = "<group>"; };
+		2ABCF9CB26022DDE00B8797C /* varz.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = varz.c; sourceTree = "<group>"; };
+		2ABCF9CC26022DDE00B8797C /* nortvars.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = nortvars.c; sourceTree = "<group>"; };
+		2ABCF9CD26022DDE00B8797C /* std_support.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = std_support.c; sourceTree = "<group>"; };
+		2ABCF9CE26022DDE00B8797C /* vga_palette.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vga_palette.h; sourceTree = "<group>"; };
+		2ABCF9CF26022DDE00B8797C /* sndmast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sndmast.h; sourceTree = "<group>"; };
+		2ABCF9D026022DDE00B8797C /* scroller.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = scroller.c; sourceTree = "<group>"; };
+		2ABCF9D126022DDF00B8797C /* lds_play.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lds_play.c; sourceTree = "<group>"; };
+		2ABCF9D226022DDF00B8797C /* player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = player.h; sourceTree = "<group>"; };
+		2ABCF9D326022DDF00B8797C /* std_support.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = std_support.h; sourceTree = "<group>"; };
+		2ABCF9D426022DDF00B8797C /* backgrnd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = backgrnd.c; sourceTree = "<group>"; };
+		2ABCF9D526022DDF00B8797C /* opentyr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = opentyr.c; sourceTree = "<group>"; };
+		2ABCF9D626022DDF00B8797C /* video_scale.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = video_scale.c; sourceTree = "<group>"; };
+		2ABCF9D726022DDF00B8797C /* params.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = params.c; sourceTree = "<group>"; };
+		2ABCF9D826022DDF00B8797C /* keyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = keyboard.h; sourceTree = "<group>"; };
+		2ABCF9D926022DDF00B8797C /* player.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = player.c; sourceTree = "<group>"; };
+		2ABCF9DA26022DDF00B8797C /* lvlmast.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lvlmast.c; sourceTree = "<group>"; };
+		2ABCF9DB26022DDF00B8797C /* sprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sprite.h; sourceTree = "<group>"; };
+		2ABCF9DC26022DDF00B8797C /* opl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opl.h; sourceTree = "<group>"; };
+		2ABCF9DD26022DDF00B8797C /* xmas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xmas.h; sourceTree = "<group>"; };
+		2ABCF9DE26022DDF00B8797C /* animlib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = animlib.c; sourceTree = "<group>"; };
+		2ABCF9DF26022DDF00B8797C /* shots.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = shots.c; sourceTree = "<group>"; };
+		2ABCF9E026022DE000B8797C /* keyboard.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = keyboard.c; sourceTree = "<group>"; };
+		2ABCF9E126022DE000B8797C /* setup.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = setup.c; sourceTree = "<group>"; };
+		2ABCF9E226022DE000B8797C /* pcxload.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pcxload.c; sourceTree = "<group>"; };
+		2ABCF9E326022DE000B8797C /* editship.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = editship.h; sourceTree = "<group>"; };
+		2ABCF9E426022DE000B8797C /* picload.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = picload.c; sourceTree = "<group>"; };
+		2ABCF9E526022DE000B8797C /* fonthand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fonthand.h; sourceTree = "<group>"; };
+		2ABCF9E626022DE000B8797C /* menus.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = menus.c; sourceTree = "<group>"; };
+		2ABCF9E726022DE000B8797C /* starlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = starlib.h; sourceTree = "<group>"; };
+		2ABCF9E826022DE000B8797C /* config_file.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config_file.h; sourceTree = "<group>"; };
+		2ABCF9E926022DE000B8797C /* font.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = font.h; sourceTree = "<group>"; };
+		2ABCF9EA26022DE000B8797C /* opentyr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opentyr.h; sourceTree = "<group>"; };
+		2ABCF9EB26022DE000B8797C /* destruct.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = destruct.c; sourceTree = "<group>"; };
+		2ABCF9EC26022DE000B8797C /* fonthand.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fonthand.c; sourceTree = "<group>"; };
+		2ABCF9ED26022DE000B8797C /* video.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = video.h; sourceTree = "<group>"; };
+		2ABCF9EE26022DE000B8797C /* lvlmast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lvlmast.h; sourceTree = "<group>"; };
+		2ABCF9EF26022DE000B8797C /* musmast.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = musmast.c; sourceTree = "<group>"; };
+		2ABCF9F026022DE100B8797C /* sizebuf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sizebuf.c; sourceTree = "<group>"; };
+		2ABCF9F126022DE100B8797C /* jukebox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jukebox.h; sourceTree = "<group>"; };
+		2ABCF9F226022DE100B8797C /* video_scale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = video_scale.h; sourceTree = "<group>"; };
+		2ABCF9F326022DE100B8797C /* xmas.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xmas.c; sourceTree = "<group>"; };
+		2ABCF9F426022DE100B8797C /* palette.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = palette.h; sourceTree = "<group>"; };
+		2ABCF9F526022DE100B8797C /* opentyrian_version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opentyrian_version.h; sourceTree = "<group>"; };
+		2ABCF9F626022DE100B8797C /* starlib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = starlib.c; sourceTree = "<group>"; };
+		2ABCF9F726022DE100B8797C /* video.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = video.c; sourceTree = "<group>"; };
+		2ABCF9F826022DE100B8797C /* vga_palette.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = vga_palette.c; sourceTree = "<group>"; };
+		2ABCF9F926022DE100B8797C /* game_menu.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = game_menu.c; sourceTree = "<group>"; };
+		2ABCF9FA26022DE100B8797C /* episodes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = episodes.h; sourceTree = "<group>"; };
+		2ABCF9FB26022DE100B8797C /* loudness.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = loudness.c; sourceTree = "<group>"; };
+		2ABCF9FC26022DE100B8797C /* helptext.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = helptext.c; sourceTree = "<group>"; };
+		2ABCF9FD26022DE100B8797C /* joystick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = joystick.h; sourceTree = "<group>"; };
+		2ABCF9FE26022DE100B8797C /* destruct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = destruct.h; sourceTree = "<group>"; };
+		2ABCF9FF26022DE100B8797C /* loudness.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = loudness.h; sourceTree = "<group>"; };
+		2ABCFA0026022DE100B8797C /* musmast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = musmast.h; sourceTree = "<group>"; };
+		2ABCFA0126022DE100B8797C /* setup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = setup.h; sourceTree = "<group>"; };
+		2ABCFA0226022DE100B8797C /* arg_parse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = arg_parse.h; sourceTree = "<group>"; };
+		2ABCFA0326022DE100B8797C /* vga256d.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = vga256d.c; sourceTree = "<group>"; };
+		2ABCFA0426022DE100B8797C /* nortvars.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nortvars.h; sourceTree = "<group>"; };
+		2ABCFA0526022DE100B8797C /* palette.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = palette.c; sourceTree = "<group>"; };
+		2ABCFA0626022DE200B8797C /* tyrian2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tyrian2.h; sourceTree = "<group>"; };
+		2ABCFA0726022DE200B8797C /* opl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = opl.c; sourceTree = "<group>"; };
+		2ABCFA0826022DE200B8797C /* varz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = varz.h; sourceTree = "<group>"; };
+		2ABCFA0926022DE200B8797C /* lvllib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lvllib.h; sourceTree = "<group>"; };
+		2ABCFA0A26022DE200B8797C /* file.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = file.h; sourceTree = "<group>"; };
+		2ABCFA0B26022DE200B8797C /* file.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = file.c; sourceTree = "<group>"; };
+		2ABCFA0C26022DE200B8797C /* params.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = params.h; sourceTree = "<group>"; };
+		2ABCFA0D26022DE200B8797C /* network.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = network.h; sourceTree = "<group>"; };
+		2ABCFA0E26022DE200B8797C /* pcxmast.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pcxmast.c; sourceTree = "<group>"; };
+		2ABCFA0F26022DE200B8797C /* editship.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = editship.c; sourceTree = "<group>"; };
+		2ABCFA1026022DE200B8797C /* font.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = font.c; sourceTree = "<group>"; };
+		2ABCFA1126022DE200B8797C /* backgrnd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = backgrnd.h; sourceTree = "<group>"; };
+		2ABCFA1226022DE200B8797C /* lvllib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lvllib.c; sourceTree = "<group>"; };
+		2ABCFA1326022DE200B8797C /* episodes.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = episodes.c; sourceTree = "<group>"; };
+		2ABCFA1426022DE200B8797C /* sndmast.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sndmast.c; sourceTree = "<group>"; };
+		2ABCFA1526022DE200B8797C /* animlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = animlib.h; sourceTree = "<group>"; };
+		2ABCFA1626022DE200B8797C /* mouse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mouse.h; sourceTree = "<group>"; };
+		2ABCFA1726022DE200B8797C /* picload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = picload.h; sourceTree = "<group>"; };
+		2ABCFA1826022DE200B8797C /* lds_play.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lds_play.h; sourceTree = "<group>"; };
+		2ABCFA1926022DE200B8797C /* menus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = menus.h; sourceTree = "<group>"; };
+		2ABCFA1A26022DE200B8797C /* game_menu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = game_menu.h; sourceTree = "<group>"; };
+		2ABCFA1B26022DE200B8797C /* nortsong.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = nortsong.c; sourceTree = "<group>"; };
+		2ABCFA1C26022DE200B8797C /* joystick.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = joystick.c; sourceTree = "<group>"; };
+		2ABCFA1D26022DE300B8797C /* mainint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mainint.h; sourceTree = "<group>"; };
+		2ABCFA1E26022DE300B8797C /* nortsong.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nortsong.h; sourceTree = "<group>"; };
 		2ACC77A826017FE50084EF71 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = OpenTyrian/Images.xcassets; sourceTree = "<group>"; };
-		2ACC77AA260180980084EF71 /* data */ = {isa = PBXFileReference; lastKnownFileType = folder; name = data; path = ../src/data; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* OpenTyrian.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenTyrian.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A4EDD15C0CBB6FFB008AEAEB /* tyrian.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = tyrian.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -269,11 +265,9 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				2ACC77AA260180980084EF71 /* data */,
 				2ACC77A826017FE50084EF71 /* Images.xcassets */,
-				A4EDD15C0CBB6FFB008AEAEB /* tyrian.icns */,
-				A4CBD5C90CBB687900048D9F /* MainMenu.nib */,
 				8D1107310486CEB800E47090 /* Info.plist */,
+				2A81E7A52601DCA9006B8333 /* OpenTyrianMainMenu.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -290,108 +284,108 @@
 		A43848060CC5ABF70007FEE0 /* Untouched opentyrian Files */ = {
 			isa = PBXGroup;
 			children = (
-				2A6CCFCB260171EA00D865A1 /* animlib.c */,
-				2A6CCFFA260171EF00D865A1 /* animlib.h */,
-				2A6CCFBA260171EA00D865A1 /* arg_parse.c */,
-				2A6CCFC4260171EA00D865A1 /* arg_parse.h */,
-				2A6CCFD4260171EB00D865A1 /* backgrnd.c */,
-				2A6CCFD2260171EB00D865A1 /* backgrnd.h */,
-				2A6CCFC3260171EA00D865A1 /* config_file.c */,
-				2A6CCFED260171EE00D865A1 /* config_file.h */,
-				2A6CD006260171EF00D865A1 /* destruct.c */,
-				2A6CD003260171EF00D865A1 /* destruct.h */,
-				2A6CCFC7260171EA00D865A1 /* editship.c */,
-				2A6CCFD5260171EB00D865A1 /* editship.h */,
-				2A6CCFB7260171E900D865A1 /* episodes.c */,
-				2A6CCFA8260171E900D865A1 /* episodes.h */,
-				2A6CD005260171EF00D865A1 /* file.c */,
-				2A6CCFDE260171EC00D865A1 /* file.h */,
-				2A6CCFA9260171E900D865A1 /* font.c */,
-				2A6CD00C260171EF00D865A1 /* font.h */,
-				2A6CD00E260171EF00D865A1 /* fonthand.c */,
-				2A6CCFDF260171EC00D865A1 /* fonthand.h */,
-				2A6CCFB8260171E900D865A1 /* game_menu.c */,
-				2A6CCFBF260171EA00D865A1 /* game_menu.h */,
-				2A6CCFFB260171EF00D865A1 /* helptext.c */,
-				2A6CD008260171EF00D865A1 /* helptext.h */,
-				2A6CCFEF260171EE00D865A1 /* joystick.c */,
-				2A6CD00A260171EF00D865A1 /* joystick.h */,
-				2A6CCFAE260171E900D865A1 /* jukebox.c */,
-				2A6CCFD6260171EB00D865A1 /* jukebox.h */,
-				2A6CCFAC260171E900D865A1 /* keyboard.c */,
-				2A6CCFD0260171EB00D865A1 /* keyboard.h */,
-				2A6CCFEA260171EE00D865A1 /* lds_play.c */,
-				2A6CCFEC260171EE00D865A1 /* lds_play.h */,
-				2A6CCFE0260171EC00D865A1 /* loudness.c */,
-				2A6CCFD7260171EB00D865A1 /* loudness.h */,
-				2A6CCFFC260171EF00D865A1 /* lvllib.c */,
-				2A6CCFF5260171EF00D865A1 /* lvllib.h */,
-				2A6CCFF4260171EF00D865A1 /* lvlmast.c */,
-				2A6CD002260171EF00D865A1 /* lvlmast.h */,
-				2A6CCFD9260171EB00D865A1 /* mainint.c */,
-				2A6CCFCE260171EB00D865A1 /* mainint.h */,
-				2A6CCFCC260171EA00D865A1 /* menus.c */,
-				2A6CCFD1260171EB00D865A1 /* menus.h */,
-				2A6CCFBB260171EA00D865A1 /* mouse.c */,
-				2A6CCFCD260171EB00D865A1 /* mouse.h */,
-				2A6CCFB5260171E900D865A1 /* mtrand.c */,
-				2A6CCFFF260171EF00D865A1 /* mtrand.h */,
-				2A6CCFFD260171EF00D865A1 /* musmast.c */,
-				2A6CCFE3260171EC00D865A1 /* musmast.h */,
-				2A6CCFC0260171EA00D865A1 /* network.c */,
-				2A6CD00D260171EF00D865A1 /* network.h */,
-				2A6CCFBD260171EA00D865A1 /* nortsong.c */,
-				2A6CCFCF260171EB00D865A1 /* nortsong.h */,
-				2A6CCFDA260171EB00D865A1 /* nortvars.c */,
-				2A6CCFD8260171EB00D865A1 /* nortvars.h */,
-				2A6CCFBC260171EA00D865A1 /* opentyr.c */,
-				2A6CCFAF260171E900D865A1 /* opentyr.h */,
-				2A6CCFF6260171EF00D865A1 /* opentyrian_version.h */,
-				2A6CCFC2260171EA00D865A1 /* opl.c */,
-				2A6CCFF2260171EE00D865A1 /* opl.h */,
-				2A6CCFE4260171EC00D865A1 /* palette.c */,
-				2A6CCFEB260171EE00D865A1 /* palette.h */,
-				2A6CCFC8260171EA00D865A1 /* params.c */,
-				2A6CCFF1260171EE00D865A1 /* params.h */,
-				2A6CCFDD260171EC00D865A1 /* pcxload.c */,
-				2A6CCFE1260171EC00D865A1 /* pcxload.h */,
-				2A6CD004260171EF00D865A1 /* pcxmast.c */,
-				2A6CCFE2260171EC00D865A1 /* pcxmast.h */,
-				2A6CCFB0260171E900D865A1 /* picload.c */,
-				2A6CCFB4260171E900D865A1 /* picload.h */,
-				2A6CCFF9260171EF00D865A1 /* player.c */,
-				2A6CCFBE260171EA00D865A1 /* player.h */,
-				2A6CCFAA260171E900D865A1 /* scroller.c */,
-				2A6CCFB3260171E900D865A1 /* scroller.h */,
-				2A6CCFCA260171EA00D865A1 /* setup.c */,
-				2A6CCFC6260171EA00D865A1 /* setup.h */,
-				2A6CCFF8260171EF00D865A1 /* shots.c */,
-				2A6CCFC9260171EA00D865A1 /* shots.h */,
-				2A6CCFDC260171EB00D865A1 /* sizebuf.c */,
-				2A6CCFAD260171E900D865A1 /* sizebuf.h */,
-				2A6CCFB6260171E900D865A1 /* sndmast.c */,
-				2A6CCFC1260171EA00D865A1 /* sndmast.h */,
-				2A6CD007260171EF00D865A1 /* sprite.c */,
-				2A6CCFF7260171EF00D865A1 /* sprite.h */,
-				2A6CCFDB260171EB00D865A1 /* starlib.c */,
-				2A6CCFAB260171E900D865A1 /* starlib.h */,
-				2A6CCFB9260171EA00D865A1 /* std_support.c */,
-				2A6CCFB2260171E900D865A1 /* std_support.h */,
-				2A6CCFF3260171EF00D865A1 /* tyrian2.c */,
-				2A6CCFE5260171EC00D865A1 /* tyrian2.h */,
-				2A6CD009260171EF00D865A1 /* varz.c */,
-				2A6CD00B260171EF00D865A1 /* varz.h */,
-				2A6CCFF0260171EE00D865A1 /* vga_palette.c */,
-				2A6CCFB1260171E900D865A1 /* vga_palette.h */,
-				2A6CCFE7260171EC00D865A1 /* vga256d.c */,
-				2A6CCFD3260171EB00D865A1 /* vga256d.h */,
-				2A6CCFE8260171EC00D865A1 /* video_scale_hqNx.c */,
-				2A6CCFEE260171EE00D865A1 /* video_scale.c */,
-				2A6CCFFE260171EF00D865A1 /* video_scale.h */,
-				2A6CCFC5260171EA00D865A1 /* video.c */,
-				2A6CCFE6260171EC00D865A1 /* video.h */,
-				2A6CD001260171EF00D865A1 /* xmas.c */,
-				2A6CCFE9260171EC00D865A1 /* xmas.h */,
+				2ABCF9DE26022DDF00B8797C /* animlib.c */,
+				2ABCFA1526022DE200B8797C /* animlib.h */,
+				2ABCF9C926022DDE00B8797C /* arg_parse.c */,
+				2ABCFA0226022DE100B8797C /* arg_parse.h */,
+				2ABCF9D426022DDF00B8797C /* backgrnd.c */,
+				2ABCFA1126022DE200B8797C /* backgrnd.h */,
+				2ABCF9C126022DDD00B8797C /* config_file.c */,
+				2ABCF9E826022DE000B8797C /* config_file.h */,
+				2ABCF9EB26022DE000B8797C /* destruct.c */,
+				2ABCF9FE26022DE100B8797C /* destruct.h */,
+				2ABCFA0F26022DE200B8797C /* editship.c */,
+				2ABCF9E326022DE000B8797C /* editship.h */,
+				2ABCFA1326022DE200B8797C /* episodes.c */,
+				2ABCF9FA26022DE100B8797C /* episodes.h */,
+				2ABCFA0B26022DE200B8797C /* file.c */,
+				2ABCFA0A26022DE200B8797C /* file.h */,
+				2ABCFA1026022DE200B8797C /* font.c */,
+				2ABCF9E926022DE000B8797C /* font.h */,
+				2ABCF9EC26022DE000B8797C /* fonthand.c */,
+				2ABCF9E526022DE000B8797C /* fonthand.h */,
+				2ABCF9F926022DE100B8797C /* game_menu.c */,
+				2ABCFA1A26022DE200B8797C /* game_menu.h */,
+				2ABCF9FC26022DE100B8797C /* helptext.c */,
+				2ABCF9BB26022DDD00B8797C /* helptext.h */,
+				2ABCFA1C26022DE200B8797C /* joystick.c */,
+				2ABCF9FD26022DE100B8797C /* joystick.h */,
+				2ABCF9CA26022DDE00B8797C /* jukebox.c */,
+				2ABCF9F126022DE100B8797C /* jukebox.h */,
+				2ABCF9E026022DE000B8797C /* keyboard.c */,
+				2ABCF9D826022DDF00B8797C /* keyboard.h */,
+				2ABCF9D126022DDF00B8797C /* lds_play.c */,
+				2ABCFA1826022DE200B8797C /* lds_play.h */,
+				2ABCF9FB26022DE100B8797C /* loudness.c */,
+				2ABCF9FF26022DE100B8797C /* loudness.h */,
+				2ABCFA1226022DE200B8797C /* lvllib.c */,
+				2ABCFA0926022DE200B8797C /* lvllib.h */,
+				2ABCF9DA26022DDF00B8797C /* lvlmast.c */,
+				2ABCF9EE26022DE000B8797C /* lvlmast.h */,
+				2ABCF9C426022DDE00B8797C /* mainint.c */,
+				2ABCFA1D26022DE300B8797C /* mainint.h */,
+				2ABCF9E626022DE000B8797C /* menus.c */,
+				2ABCFA1926022DE200B8797C /* menus.h */,
+				2ABCF9C826022DDE00B8797C /* mouse.c */,
+				2ABCFA1626022DE200B8797C /* mouse.h */,
+				2ABCF9C726022DDE00B8797C /* mtrand.c */,
+				2ABCF9BC26022DDD00B8797C /* mtrand.h */,
+				2ABCF9EF26022DE000B8797C /* musmast.c */,
+				2ABCFA0026022DE100B8797C /* musmast.h */,
+				2ABCF9C626022DDE00B8797C /* network.c */,
+				2ABCFA0D26022DE200B8797C /* network.h */,
+				2ABCFA1B26022DE200B8797C /* nortsong.c */,
+				2ABCFA1E26022DE300B8797C /* nortsong.h */,
+				2ABCF9CC26022DDE00B8797C /* nortvars.c */,
+				2ABCFA0426022DE100B8797C /* nortvars.h */,
+				2ABCF9D526022DDF00B8797C /* opentyr.c */,
+				2ABCF9EA26022DE000B8797C /* opentyr.h */,
+				2ABCF9F526022DE100B8797C /* opentyrian_version.h */,
+				2ABCFA0726022DE200B8797C /* opl.c */,
+				2ABCF9DC26022DDF00B8797C /* opl.h */,
+				2ABCFA0526022DE100B8797C /* palette.c */,
+				2ABCF9F426022DE100B8797C /* palette.h */,
+				2ABCF9D726022DDF00B8797C /* params.c */,
+				2ABCFA0C26022DE200B8797C /* params.h */,
+				2ABCF9E226022DE000B8797C /* pcxload.c */,
+				2ABCF9C226022DDE00B8797C /* pcxload.h */,
+				2ABCFA0E26022DE200B8797C /* pcxmast.c */,
+				2ABCF9C326022DDE00B8797C /* pcxmast.h */,
+				2ABCF9E426022DE000B8797C /* picload.c */,
+				2ABCFA1726022DE200B8797C /* picload.h */,
+				2ABCF9D926022DDF00B8797C /* player.c */,
+				2ABCF9D226022DDF00B8797C /* player.h */,
+				2ABCF9D026022DDE00B8797C /* scroller.c */,
+				2ABCF9BE26022DDD00B8797C /* scroller.h */,
+				2ABCF9E126022DE000B8797C /* setup.c */,
+				2ABCFA0126022DE100B8797C /* setup.h */,
+				2ABCF9DF26022DDF00B8797C /* shots.c */,
+				2ABCF9C026022DDD00B8797C /* shots.h */,
+				2ABCF9F026022DE100B8797C /* sizebuf.c */,
+				2ABCF9B926022DDD00B8797C /* sizebuf.h */,
+				2ABCFA1426022DE200B8797C /* sndmast.c */,
+				2ABCF9CF26022DDE00B8797C /* sndmast.h */,
+				2ABCF9BF26022DDD00B8797C /* sprite.c */,
+				2ABCF9DB26022DDF00B8797C /* sprite.h */,
+				2ABCF9F626022DE100B8797C /* starlib.c */,
+				2ABCF9E726022DE000B8797C /* starlib.h */,
+				2ABCF9CD26022DDE00B8797C /* std_support.c */,
+				2ABCF9D326022DDF00B8797C /* std_support.h */,
+				2ABCF9BD26022DDD00B8797C /* tyrian2.c */,
+				2ABCFA0626022DE200B8797C /* tyrian2.h */,
+				2ABCF9CB26022DDE00B8797C /* varz.c */,
+				2ABCFA0826022DE200B8797C /* varz.h */,
+				2ABCF9F826022DE100B8797C /* vga_palette.c */,
+				2ABCF9CE26022DDE00B8797C /* vga_palette.h */,
+				2ABCFA0326022DE100B8797C /* vga256d.c */,
+				2ABCF9BA26022DDD00B8797C /* vga256d.h */,
+				2ABCF9C526022DDE00B8797C /* video_scale_hqNx.c */,
+				2ABCF9D626022DDF00B8797C /* video_scale.c */,
+				2ABCF9F226022DE100B8797C /* video_scale.h */,
+				2ABCF9F726022DE100B8797C /* video.c */,
+				2ABCF9ED26022DE000B8797C /* video.h */,
+				2ABCF9F326022DE100B8797C /* xmas.c */,
+				2ABCF9DD26022DDF00B8797C /* xmas.h */,
 			);
 			name = "Untouched opentyrian Files";
 			path = ../..;
@@ -400,8 +394,8 @@
 		A43848C10CC5AE570007FEE0 /* Mac-specific Modifications */ = {
 			isa = PBXGroup;
 			children = (
-				2A6CD0442601742500D865A1 /* config.c */,
-				2A6CD0432601742500D865A1 /* config.h */,
+				2ABCF9B626022DCA00B8797C /* config.c */,
+				2ABCF9B726022DCA00B8797C /* config.h */,
 			);
 			name = "Mac-specific Modifications";
 			path = ..;
@@ -460,9 +454,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2ACC77A926017FE50084EF71 /* Images.xcassets in Resources */,
-				A4EDD15D0CBB6FFB008AEAEB /* tyrian.icns in Resources */,
-				2ACC77AB260180980084EF71 /* data in Resources */,
-				A48DFB580CD6C27C0026AE59 /* MainMenu.nib in Resources */,
+				2A81E7A62601DCA9006B8333 /* OpenTyrianMainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,73 +465,62 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A6CD025260171EF00D865A1 /* menus.c in Sources */,
-				2A6CD011260171EF00D865A1 /* keyboard.c in Sources */,
-				2A6CD03C260171EF00D865A1 /* xmas.c in Sources */,
-				2A6CD03A260171EF00D865A1 /* musmast.c in Sources */,
-				2A6CD01F260171EF00D865A1 /* config_file.c in Sources */,
-				2A6CD01C260171EF00D865A1 /* nortsong.c in Sources */,
-				2A6CD01B260171EF00D865A1 /* opentyr.c in Sources */,
-				2A6CD036260171EF00D865A1 /* shots.c in Sources */,
-				2A6CD041260171EF00D865A1 /* varz.c in Sources */,
-				2A6CD035260171EF00D865A1 /* lvlmast.c in Sources */,
-				2A6CD016260171EF00D865A1 /* episodes.c in Sources */,
-				2A6CD0452601742500D865A1 /* config.c in Sources */,
-				2A6CD01D260171EF00D865A1 /* network.c in Sources */,
-				2A6CD01A260171EF00D865A1 /* mouse.c in Sources */,
-				2A6CD01E260171EF00D865A1 /* opl.c in Sources */,
-				2A6CD02D260171EF00D865A1 /* palette.c in Sources */,
-				2A6CD02E260171EF00D865A1 /* vga256d.c in Sources */,
-				2A6CD020260171EF00D865A1 /* video.c in Sources */,
-				2A6CD032260171EF00D865A1 /* joystick.c in Sources */,
-				2A6CD021260171EF00D865A1 /* editship.c in Sources */,
-				2A6CD02B260171EF00D865A1 /* pcxload.c in Sources */,
-				2A6CD010260171EF00D865A1 /* scroller.c in Sources */,
-				2A6CD013260171EF00D865A1 /* picload.c in Sources */,
-				2A6CD028260171EF00D865A1 /* nortvars.c in Sources */,
-				2A6CD030260171EF00D865A1 /* lds_play.c in Sources */,
-				2A6CD03F260171EF00D865A1 /* destruct.c in Sources */,
-				2A6CD03E260171EF00D865A1 /* file.c in Sources */,
-				2A6CD02C260171EF00D865A1 /* loudness.c in Sources */,
-				2A6CD034260171EF00D865A1 /* tyrian2.c in Sources */,
-				2A6CD019260171EF00D865A1 /* arg_parse.c in Sources */,
-				2A6CD031260171EF00D865A1 /* video_scale.c in Sources */,
-				2A6CD023260171EF00D865A1 /* setup.c in Sources */,
-				2A6CD039260171EF00D865A1 /* lvllib.c in Sources */,
-				2A6CD017260171EF00D865A1 /* game_menu.c in Sources */,
-				2A6CD014260171EF00D865A1 /* mtrand.c in Sources */,
-				2A6CD037260171EF00D865A1 /* player.c in Sources */,
-				2A6CD040260171EF00D865A1 /* sprite.c in Sources */,
-				2A6CD015260171EF00D865A1 /* sndmast.c in Sources */,
-				2A6CD03D260171EF00D865A1 /* pcxmast.c in Sources */,
-				2A6CD033260171EF00D865A1 /* vga_palette.c in Sources */,
-				2A6CD024260171EF00D865A1 /* animlib.c in Sources */,
-				2A6CD038260171EF00D865A1 /* helptext.c in Sources */,
-				2A6CD026260171EF00D865A1 /* backgrnd.c in Sources */,
-				2A6CD02A260171EF00D865A1 /* sizebuf.c in Sources */,
-				2A6CD012260171EF00D865A1 /* jukebox.c in Sources */,
-				2A6CD02F260171EF00D865A1 /* video_scale_hqNx.c in Sources */,
-				2A6CD042260171EF00D865A1 /* fonthand.c in Sources */,
-				2A6CD018260171EF00D865A1 /* std_support.c in Sources */,
-				2A6CD027260171EF00D865A1 /* mainint.c in Sources */,
-				2A6CD00F260171EF00D865A1 /* font.c in Sources */,
-				2A6CD022260171EF00D865A1 /* params.c in Sources */,
-				2A6CD029260171EF00D865A1 /* starlib.c in Sources */,
+				2ABCF9B826022DCA00B8797C /* config.c in Sources */,
+				2ABCFA4E26022DE300B8797C /* episodes.c in Sources */,
+				2ABCFA4626022DE300B8797C /* vga256d.c in Sources */,
+				2ABCFA1F26022DE300B8797C /* tyrian2.c in Sources */,
+				2ABCFA2926022DE300B8797C /* varz.c in Sources */,
+				2ABCFA2D26022DE300B8797C /* lds_play.c in Sources */,
+				2ABCFA3F26022DE300B8797C /* xmas.c in Sources */,
+				2ABCFA3D26022DE300B8797C /* musmast.c in Sources */,
+				2ABCFA2226022DE300B8797C /* mainint.c in Sources */,
+				2ABCFA2E26022DE300B8797C /* backgrnd.c in Sources */,
+				2ABCFA4326022DE300B8797C /* game_menu.c in Sources */,
+				2ABCFA2626022DE300B8797C /* mouse.c in Sources */,
+				2ABCFA3726022DE300B8797C /* setup.c in Sources */,
+				2ABCFA3226022DE300B8797C /* player.c in Sources */,
+				2ABCFA2F26022DE300B8797C /* opentyr.c in Sources */,
+				2ABCFA4C26022DE300B8797C /* font.c in Sources */,
+				2ABCFA3526022DE300B8797C /* shots.c in Sources */,
+				2ABCFA4826022DE300B8797C /* opl.c in Sources */,
+				2ABCFA2426022DE300B8797C /* network.c in Sources */,
+				2ABCFA3A26022DE300B8797C /* menus.c in Sources */,
+				2ABCFA4726022DE300B8797C /* palette.c in Sources */,
+				2ABCFA4126022DE300B8797C /* video.c in Sources */,
+				2ABCFA5026022DE300B8797C /* nortsong.c in Sources */,
+				2ABCFA4526022DE300B8797C /* helptext.c in Sources */,
+				2ABCFA3C26022DE300B8797C /* fonthand.c in Sources */,
+				2ABCFA3126022DE300B8797C /* params.c in Sources */,
+				2ABCFA4A26022DE300B8797C /* pcxmast.c in Sources */,
+				2ABCFA3326022DE300B8797C /* lvlmast.c in Sources */,
+				2ABCFA3926022DE300B8797C /* picload.c in Sources */,
+				2ABCFA2C26022DE300B8797C /* scroller.c in Sources */,
+				2ABCFA4226022DE300B8797C /* vga_palette.c in Sources */,
+				2ABCFA4026022DE300B8797C /* starlib.c in Sources */,
+				2ABCFA4D26022DE300B8797C /* lvllib.c in Sources */,
+				2ABCFA2326022DE300B8797C /* video_scale_hqNx.c in Sources */,
+				2ABCFA4426022DE300B8797C /* loudness.c in Sources */,
+				2ABCFA2B26022DE300B8797C /* std_support.c in Sources */,
+				2ABCFA4926022DE300B8797C /* file.c in Sources */,
+				2ABCFA3026022DE300B8797C /* video_scale.c in Sources */,
+				2ABCFA2826022DE300B8797C /* jukebox.c in Sources */,
+				2ABCFA3426022DE300B8797C /* animlib.c in Sources */,
+				2ABCFA2026022DE300B8797C /* sprite.c in Sources */,
+				2ABCFA3626022DE300B8797C /* keyboard.c in Sources */,
+				2ABCFA2126022DE300B8797C /* config_file.c in Sources */,
+				2ABCFA5126022DE300B8797C /* joystick.c in Sources */,
+				2ABCFA4B26022DE300B8797C /* editship.c in Sources */,
+				2ABCFA3826022DE300B8797C /* pcxload.c in Sources */,
+				2ABCFA2A26022DE300B8797C /* nortvars.c in Sources */,
+				2ABCFA3B26022DE300B8797C /* destruct.c in Sources */,
+				2ABCFA2726022DE300B8797C /* arg_parse.c in Sources */,
+				2ABCFA3E26022DE300B8797C /* sizebuf.c in Sources */,
+				2ABCFA4F26022DE300B8797C /* sndmast.c in Sources */,
+				2ABCFA2526022DE300B8797C /* mtrand.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		A4CBD5C90CBB687900048D9F /* MainMenu.nib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2A6CCFA72601708900D865A1 /* en */,
-			);
-			name = MainMenu.nib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		C01FCF4B08A954540054247B /* Debug */ = {
@@ -550,9 +531,9 @@
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_IDENTITY = "-";
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 20211703;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					.,
 					"$(LOCAL_LIBRARY_DIR)/Frameworks",
 				);
 				GCC_DEBUGGING_SYMBOLS = full;
@@ -560,12 +541,17 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				INFOPLIST_FILE = Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				MARKETING_VERSION = 2.2;
 				OTHER_CFLAGS = "-DSCALE2X";
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.opentyrian.OpenTyrian;
 				PRODUCT_NAME = OpenTyrian;
 				SDL_FRAMEWORK = /Library/Frameworks/SDL.framework;
 				SDL_NET_FRAMEWORK = /Library/Frameworks/SDL_net.framework;
+				SVN_REVISION = "";
 				USER_HEADER_SEARCH_PATHS = "$(SDL_FRAMEWORK)/Headers $(SDL_NET_FRAMEWORK)/Headers";
+				VERSION = 2.2;
 				WRAPPER_EXTENSION = app;
 				ZERO_LINK = YES;
 			};
@@ -579,20 +565,25 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_IDENTITY = "-";
+				CURRENT_PROJECT_VERSION = 20211703;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					.,
 					"$(LOCAL_LIBRARY_DIR)/Frameworks",
 				);
 				GCC_DYNAMIC_NO_PIC = YES;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				INFOPLIST_FILE = Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				MARKETING_VERSION = 2.2;
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.opentyrian.OpenTyrian;
 				PRODUCT_NAME = OpenTyrian;
 				SDL_FRAMEWORK = /Library/Frameworks/SDL.framework;
 				SDL_NET_FRAMEWORK = /Library/Frameworks/SDL_net.framework;
+				SVN_REVISION = "";
 				USER_HEADER_SEARCH_PATHS = "$(SDL_FRAMEWORK)/Headers $(SDL_NET_FRAMEWORK)/Headers";
+				VERSION = 2.2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

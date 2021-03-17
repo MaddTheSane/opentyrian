@@ -35,9 +35,7 @@ const char *data_dir( void )
 {
 	const char *dirs[] =
 	{
-		custom_data_dir,
-		"data",
-		".",
+        get_user_directory()
 	};
 
 	static const char *dir = NULL;

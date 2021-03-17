@@ -1,4 +1,4 @@
-/* 
+/*
  * OpenTyrian: A modern cross-platform port of Tyrian
  * Copyright (C) 2008  The OpenTyrian Development Team
  *
@@ -34,13 +34,13 @@
 
 - (void)awakeFromNib
 {
-	// Copied and modified from SDLMain.m from the "SDL Application" template
+    // Copied and modified from SDLMain.m from the "SDL Application" template
     
-	NSArray *argv_objc = [[NSProcessInfo processInfo] arguments];
-	int argc = [argv_objc count];
-	char ** argv;
-	BOOL finderLaunch;
-	
+    NSArray *argv_objc = [[NSProcessInfo processInfo] arguments];
+    int argc = [argv_objc count];
+    char ** argv;
+    BOOL finderLaunch;
+    
     if ( argc >= 2 && strncmp ([[argv_objc objectAtIndex:1] cString], "-psn", 4) == 0 ) {
         argv = (char **) SDL_malloc(sizeof (char *) * 2);
         argv[0] = (char *)[[argv_objc objectAtIndex:0] cString];
@@ -52,13 +52,13 @@
         argv = (char **) SDL_malloc(sizeof (char *) * (argc+1));
         for (i = 0; i < argc; i++) {
             argv[i] = (char *)[[argv_objc objectAtIndex:i] cString];
-		}
+        }
         finderLaunch = NO;
     }
-	
-	NSLog(@"%@",argv_objc);
-	
-	SDL_main(argc, argv);
+    
+    NSLog(@"%@",argv_objc);
+    
+    SDL_main(argc, argv);
 }
 @end
 
@@ -92,4 +92,9 @@ const char* get_user_directory()
     }
     
     return "";
+}
+
+int main(int argc, char** argv)
+{
+    return NSApplicationMain(argc, (const char **) argv);
 }

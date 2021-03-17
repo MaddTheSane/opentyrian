@@ -16,6 +16,7 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
+#include <sys/stat.h>
 #include "opentyr.h"
 
 #include "config.h"
@@ -48,6 +49,7 @@
 #include "video_scale.h"
 
 #include <SDL2/SDL.h>
+#undef main
 
 #include <assert.h>
 #include <stdio.h>
@@ -323,6 +325,7 @@ int main( int argc, char *argv[] )
 	printf("\nWelcome to... >> %s %s <<\n\n", opentyrian_str, opentyrian_version);
 
 	printf("Copyright (C) 2007-2013 The OpenTyrian Development Team\n\n");
+    printf("Copyright (C) 2021 Gibbon (macOS)\n\n");
 
 	printf("This program comes with ABSOLUTELY NO WARRANTY.\n");
 	printf("This is free software, and you are welcome to redistribute it\n");
@@ -333,6 +336,8 @@ int main( int argc, char *argv[] )
 		printf("Failed to initialize SDL: %s\n", SDL_GetError());
 		return -1;
 	}
+    
+    mkdir(get_user_directory(), 0700);
 
 	JE_loadConfiguration();
 

@@ -388,7 +388,7 @@
 				2ABCF9DD26022DDF00B8797C /* xmas.h */,
 			);
 			name = "Untouched opentyrian Files";
-			path = ../..;
+			path = ../src;
 			sourceTree = SOURCE_ROOT;
 		};
 		A43848C10CC5AE570007FEE0 /* Mac-specific Modifications */ = {
